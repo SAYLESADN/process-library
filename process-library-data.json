@@ -26,7 +26,23 @@
           "changes": []
         }
       ],
-      "variants": []
+      "variants": [
+        {
+          "id": "dc",
+          "label": "DC",
+          "colour": "#7B61FF",
+          "steps": [],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "User",
+              "summary": "Empty variant created",
+              "changes": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "settings": {
@@ -60,5 +76,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T11:55:12.150Z"
+  "savedAt": "2026-03-30T11:55:52.518Z"
 }
