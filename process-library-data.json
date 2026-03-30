@@ -47,10 +47,10 @@
         },
         {
           "no": "3",
-          "title": "HRSS Recieve & Review",
+          "title": "HRSS Recieve / Review",
           "type": "Review",
           "desc": "",
-          "owner": "",
+          "owner": "HRSS",
           "sys": "",
           "dur": "",
           "yes": "",
@@ -187,5 +187,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:10:26.310Z"
+  "savedAt": "2026-03-30T13:11:01.204Z"
 }
