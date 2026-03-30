@@ -35,7 +35,7 @@
           "no": "2",
           "title": "Manager Raises Starter Request",
           "type": "Manual",
-          "desc": "",
+          "desc": "Line manager notifies HRSS: full name, job title, start date, department, hours, pay, pension",
           "owner": "Manager",
           "sys": "",
           "dur": "",
@@ -188,5 +188,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:38:10.064Z"
+  "savedAt": "2026-03-30T13:38:27.371Z"
 }
