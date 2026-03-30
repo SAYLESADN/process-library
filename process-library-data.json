@@ -19,7 +19,7 @@
       "steps": [
         {
           "no": "1",
-          "title": "Accepts Offer",
+          "title": "Employee Accepts Offer",
           "type": "Start",
           "desc": "",
           "owner": "Employee",
@@ -47,10 +47,10 @@
         },
         {
           "no": "3",
-          "title": "HRSS Recieve / Review",
+          "title": "HRSS Recieve & Review",
           "type": "Review",
           "desc": "",
-          "owner": "HRSS",
+          "owner": "",
           "sys": "",
           "dur": "",
           "yes": "",
@@ -187,5 +187,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:11:01.204Z"
+  "savedAt": "2026-03-30T13:12:16.611Z"
 }
