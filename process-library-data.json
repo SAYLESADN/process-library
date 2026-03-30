@@ -63,7 +63,7 @@
           "no": "4",
           "title": "Create Record in HCM Air",
           "type": "Manual",
-          "desc": "",
+          "desc": "Create employee master record in HCM Air. Personal details, employment terms, hours, work pattern, cost centre, pay rate,.",
           "owner": "HRSS",
           "sys": "",
           "dur": "",
@@ -188,5 +188,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:38:37.707Z"
+  "savedAt": "2026-03-30T13:39:11.481Z"
 }
