@@ -2,7 +2,7 @@
   "db": [
     {
       "id": "HR-TB-001",
-      "name": "New Starter — RETAIL",
+      "name": "New Starter",
       "cat": "HR",
       "subcat": "Hire",
       "desc": "Retail via SDWorx",
@@ -12,7 +12,7 @@
       "priority": "Critical",
       "status": "In Progress",
       "stage": "",
-      "version": "1.1",
+      "version": "1.2",
       "docUrl": "",
       "notes": "",
       "links": [],
@@ -173,6 +173,13 @@
           "date": "26/03/2026",
           "by": "Workshop",
           "summary": "Workshop -- 9 steps",
+          "changes": []
+        },
+        {
+          "version": "1.2",
+          "date": "30/03/2026",
+          "by": "Unknown",
+          "summary": "Updated",
           "changes": []
         }
       ],
@@ -2759,5 +2766,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:47:23.424Z"
+  "savedAt": "2026-03-30T15:47:36.088Z"
 }
