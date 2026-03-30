@@ -277,7 +277,7 @@
               "title": "Employee Self Service Active",
               "type": "System",
               "desc": "Employee logs in via SSO. Accesses dashboard: payslips, leave, personal details, team management (managers via My People tab).",
-              "owner": "HRSS",
+              "owner": "Employee",
               "sys": "",
               "dur": "",
               "yes": "",
@@ -346,5 +346,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T14:45:49.014Z"
+  "savedAt": "2026-03-30T14:47:36.699Z"
 }
