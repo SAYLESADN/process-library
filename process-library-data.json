@@ -43,6 +43,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "HR-001-copy",
+      "name": "New Starter (Copy)",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "Retail via SDWorx",
+      "owner": "HRSS",
+      "sys": "SDWorx --> HCM Air",
+      "dur": "",
+      "priority": "Critical",
+      "status": "In Progress",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "Retail via SDWorx/SFTP",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "30/03/2026",
+          "by": "System",
+          "summary": "Duplicated",
+          "changes": []
+        }
+      ],
+      "variants": [
+        {
+          "id": "dc",
+          "label": "DC",
+          "colour": "#7B61FF",
+          "steps": [],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "User",
+              "summary": "Empty variant created",
+              "changes": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "settings": {
@@ -76,5 +120,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T11:56:03.186Z"
+  "savedAt": "2026-03-30T11:56:58.473Z"
 }
