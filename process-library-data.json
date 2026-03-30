@@ -12,164 +12,148 @@
       "priority": "Critical",
       "status": "In Progress",
       "stage": "Interim",
-      "version": "1.3",
+      "version": "1.4",
       "docUrl": "",
       "notes": "",
       "links": [],
-      "steps": [],
+      "steps": [
+        {
+          "no": "1",
+          "title": "Employee Accepts Offer",
+          "type": "Start",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "2",
+          "title": "Contract Signed?",
+          "type": "Decision",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "4",
+          "title": "Profile Set Up in HCM Air",
+          "type": "Action",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "5",
+          "title": "Profile Validation",
+          "type": "Decision",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "6",
+          "title": "Access Provisioning",
+          "type": "System",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "7",
+          "title": "Employee Data Input",
+          "type": "Action",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "8",
+          "title": "Checklist Completed",
+          "type": "Decision",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "9",
+          "title": "Approval Process",
+          "type": "Action",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "10",
+          "title": "Employee Live",
+          "type": "End",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        }
+      ],
       "history": [
         {
-          "version": "1.3",
+          "version": "1.4",
           "date": "30/03/2026",
           "by": "Workshop",
           "summary": "Workshop session",
           "changes": []
         }
       ],
-      "variants": [
-        {
-          "id": "distribution-centre",
-          "label": "Distribution Centre",
-          "colour": "#7B61FF",
-          "steps": [
-            {
-              "no": "1",
-              "title": "Employee Accepts Offer",
-              "type": "Start",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "2",
-              "title": "Contract Signed?",
-              "type": "Decision",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "4",
-              "title": "Profile Set Up in HCM Air",
-              "type": "Action",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "5",
-              "title": "Profile Validation",
-              "type": "Decision",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "6",
-              "title": "Access Provisioning",
-              "type": "System",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "7",
-              "title": "Employee Data Input",
-              "type": "Action",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "8",
-              "title": "Checklist Completed",
-              "type": "Decision",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "9",
-              "title": "Approval Process",
-              "type": "Action",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            },
-            {
-              "no": "10",
-              "title": "Employee Live",
-              "type": "End",
-              "desc": "",
-              "owner": "",
-              "sys": "",
-              "dur": "",
-              "yes": "",
-              "no_path": "",
-              "notes": "",
-              "comment": "",
-              "flagged": false
-            }
-          ],
-          "history": [
-            {
-              "version": "1.0",
-              "date": "30/03/2026",
-              "by": "User",
-              "summary": "Copied from main",
-              "changes": []
-            }
-          ]
-        }
-      ]
+      "variants": []
     }
   ],
   "settings": {
@@ -203,5 +187,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T12:20:38.330Z"
+  "savedAt": "2026-03-30T12:20:52.745Z"
 }
