@@ -133,7 +133,7 @@
           "no": "9",
           "title": "Live Employee",
           "type": "End",
-          "desc": "",
+          "desc": "Record fully active in HCM Air. Live for payroll. Manager has visibility via My People tab from day one. Pension auto-enrolment running.",
           "owner": "Employee",
           "sys": "",
           "dur": "",
@@ -188,5 +188,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:39:59.709Z"
+  "savedAt": "2026-03-30T13:40:08.315Z"
 }
