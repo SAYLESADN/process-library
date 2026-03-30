@@ -19,10 +19,10 @@
       "steps": [
         {
           "no": "1",
-          "title": "Employee Accepts Offer",
+          "title": "Accepts Offer",
           "type": "Start",
           "desc": "",
-          "owner": "",
+          "owner": "Employee",
           "sys": "",
           "dur": "",
           "yes": "",
@@ -187,5 +187,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:09:44.307Z"
+  "savedAt": "2026-03-30T13:10:26.310Z"
 }
