@@ -77,7 +77,7 @@
           "no": "5",
           "title": "Access & Tech Provisioning",
           "type": "System",
-          "desc": "",
+          "desc": "provision: laptop, Adena network account, email, Teams, shared drives, building pass. SSO provisioned for MyView browser access.",
           "owner": "Power Automate",
           "sys": "",
           "dur": "",
@@ -188,5 +188,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:39:11.481Z"
+  "savedAt": "2026-03-30T13:39:23.770Z"
 }
