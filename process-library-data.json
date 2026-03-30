@@ -125,7 +125,7 @@
               "notes": "",
               "comment": "",
               "flagged": true,
-              "_conn": "",
+              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
               "_pos": "{\"x\":1464,\"y\":360}"
             },
             {
@@ -141,8 +141,8 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
-              "_pos": "{\"x\":1608,\"y\":528}"
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
+              "_pos": "{\"x\":1464,\"y\":528}"
             },
             {
               "no": "8",
@@ -382,5 +382,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:36:44.481Z"
+  "savedAt": "2026-03-30T15:37:21.858Z"
 }
