@@ -16,134 +16,7 @@
       "docUrl": "",
       "notes": "",
       "links": [],
-      "steps": [
-        {
-          "no": "1",
-          "title": "Employee Accepts Offer",
-          "type": "Start",
-          "desc": "",
-          "owner": "Employee",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "2",
-          "title": "Manager Raises Starter Request",
-          "type": "Manual",
-          "desc": "",
-          "owner": "Manager",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "3",
-          "title": "HRSS Recieve & Review",
-          "type": "Review",
-          "desc": "",
-          "owner": "HRSS",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "4",
-          "title": "Create Record in HCM Air",
-          "type": "Manual",
-          "desc": "",
-          "owner": "HRSS",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "5",
-          "title": "Access & Tech Provisioning",
-          "type": "System",
-          "desc": "",
-          "owner": "Power Automate",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "6",
-          "title": "MyView Access Created",
-          "type": "Review",
-          "desc": "",
-          "owner": "Power Automate",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "7",
-          "title": "Payroll Validation",
-          "type": "Review",
-          "desc": "",
-          "owner": "HRSS",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "8",
-          "title": "Employee Self Service Active",
-          "type": "System",
-          "desc": "",
-          "owner": "HRSS",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "9",
-          "title": "Live Employee",
-          "type": "End",
-          "desc": "",
-          "owner": "Employee",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        }
-      ],
+      "steps": [],
       "history": [
         {
           "version": "1.6",
@@ -153,7 +26,292 @@
           "changes": []
         }
       ],
-      "variants": []
+      "variants": [
+        {
+          "id": "main",
+          "label": "Interim",
+          "colour": "#4338CA",
+          "steps": [
+            {
+              "no": "1",
+              "title": "Employee Accepts Offer",
+              "type": "Start",
+              "desc": "",
+              "owner": "Employee",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "2",
+              "title": "Manager Raises Starter Request",
+              "type": "Manual",
+              "desc": "",
+              "owner": "Manager",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "3",
+              "title": "HRSS Recieve & Review",
+              "type": "Review",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "4",
+              "title": "Create Record in HCM Air",
+              "type": "Manual",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "5",
+              "title": "Access & Tech Provisioning",
+              "type": "System",
+              "desc": "",
+              "owner": "Power Automate",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "6",
+              "title": "MyView Access Created",
+              "type": "Review",
+              "desc": "",
+              "owner": "Power Automate",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "7",
+              "title": "Payroll Validation",
+              "type": "Review",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "8",
+              "title": "Employee Self Service Active",
+              "type": "System",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "9",
+              "title": "Live Employee",
+              "type": "End",
+              "desc": "",
+              "owner": "Employee",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            }
+          ],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "System",
+              "summary": "Original process",
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "head-office",
+          "label": "Head Office",
+          "colour": "#7B61FF",
+          "steps": [
+            {
+              "no": "1",
+              "title": "Employee Accepts Offer",
+              "type": "Start",
+              "desc": "",
+              "owner": "Employee",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "2",
+              "title": "Manager Raises Starter Request",
+              "type": "Manual",
+              "desc": "",
+              "owner": "Manager",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "3",
+              "title": "HRSS Recieve & Review",
+              "type": "Review",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "4",
+              "title": "Create Record in HCM Air",
+              "type": "Manual",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "5",
+              "title": "Access & Tech Provisioning",
+              "type": "System",
+              "desc": "",
+              "owner": "Power Automate",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "6",
+              "title": "MyView Access Created",
+              "type": "Review",
+              "desc": "",
+              "owner": "Power Automate",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "7",
+              "title": "Payroll Validation",
+              "type": "Review",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "8",
+              "title": "Employee Self Service Active",
+              "type": "System",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "9",
+              "title": "Live Employee",
+              "type": "End",
+              "desc": "",
+              "owner": "Employee",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            }
+          ],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "User",
+              "summary": "Copied from main",
+              "changes": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "settings": {
@@ -188,5 +346,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:33:50.428Z"
+  "savedAt": "2026-03-30T13:34:05.896Z"
 }
