@@ -12,7 +12,7 @@
       "priority": "Critical",
       "status": "In Progress",
       "stage": "Interim",
-      "version": "1.4",
+      "version": "1.5",
       "docUrl": "",
       "notes": "",
       "links": [],
@@ -33,8 +33,22 @@
         },
         {
           "no": "2",
-          "title": "Contract Signed?",
-          "type": "Decision",
+          "title": "Manager Raises Starter Request",
+          "type": "Manual",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "3",
+          "title": "HRSS Recieve & Review",
+          "type": "Review",
           "desc": "",
           "owner": "",
           "sys": "",
@@ -47,8 +61,8 @@
         },
         {
           "no": "4",
-          "title": "Profile Set Up in HCM Air",
-          "type": "Action",
+          "title": "Create Record in HCM Air",
+          "type": "Manual",
           "desc": "",
           "owner": "",
           "sys": "",
@@ -61,21 +75,7 @@
         },
         {
           "no": "5",
-          "title": "Profile Validation",
-          "type": "Decision",
-          "desc": "",
-          "owner": "",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "6",
-          "title": "Access Provisioning",
+          "title": "Access & Tech Provisioning",
           "type": "System",
           "desc": "",
           "owner": "",
@@ -88,9 +88,23 @@
           "flagged": false
         },
         {
+          "no": "6",
+          "title": "MyView Access Created",
+          "type": "Review",
+          "desc": "",
+          "owner": "",
+          "sys": "",
+          "dur": "",
+          "yes": "",
+          "no_path": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
           "no": "7",
-          "title": "Employee Data Input",
-          "type": "Action",
+          "title": "Payroll Validation",
+          "type": "Review",
           "desc": "",
           "owner": "",
           "sys": "",
@@ -103,8 +117,8 @@
         },
         {
           "no": "8",
-          "title": "Checklist Completed",
-          "type": "Decision",
+          "title": "Employee Self Servicr Active",
+          "type": "System",
           "desc": "",
           "owner": "",
           "sys": "",
@@ -117,21 +131,7 @@
         },
         {
           "no": "9",
-          "title": "Approval Process",
-          "type": "Action",
-          "desc": "",
-          "owner": "",
-          "sys": "",
-          "dur": "",
-          "yes": "",
-          "no_path": "",
-          "notes": "",
-          "comment": "",
-          "flagged": false
-        },
-        {
-          "no": "10",
-          "title": "Employee Live",
+          "title": "Live Employee",
           "type": "End",
           "desc": "",
           "owner": "",
@@ -146,45 +146,14 @@
       ],
       "history": [
         {
-          "version": "1.4",
+          "version": "1.5",
           "date": "30/03/2026",
           "by": "Workshop",
           "summary": "Workshop session",
           "changes": []
         }
       ],
-      "variants": [
-        {
-          "id": "distribution-centre",
-          "label": "Distribution Centre",
-          "colour": "#7B61FF",
-          "steps": [],
-          "history": [
-            {
-              "version": "1.0",
-              "date": "30/03/2026",
-              "by": "System",
-              "summary": "Variant created",
-              "changes": []
-            }
-          ]
-        },
-        {
-          "id": "head-office",
-          "label": "Head Office",
-          "colour": "#0D9488",
-          "steps": [],
-          "history": [
-            {
-              "version": "1.0",
-              "date": "30/03/2026",
-              "by": "User",
-              "summary": "Empty variant created",
-              "changes": []
-            }
-          ]
-        }
-      ]
+      "variants": []
     }
   ],
   "settings": {
@@ -218,5 +187,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T12:32:59.098Z"
+  "savedAt": "2026-03-30T12:39:17.130Z"
 }
