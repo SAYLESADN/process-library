@@ -725,7 +725,7 @@ let SETTINGS = {
   categories: ['HR','Payroll','System','Admin'],
   catColours: {'HR':'#0D9488','Payroll':'#7B61FF','System':'#2D3A4A','Admin':'#64748B'},
   statuses: ['Not Started','In Progress','Active','Complete'],
-  github: {token:'', repo:'', path:'process-library-data.json', branch:'main'}
+  github: {token:'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', repo:'SAYLESADN/process-library', path:'process-library-data.json', branch:'main'}
 };
 let pendSave=null;
 let dashSort={col:'name',asc:true};
@@ -905,7 +905,14 @@ function saveGitHubSettings(){
 function loadGitHubSettings(){
   try{
     const s=localStorage.getItem('adn_pl_gh');
-    if(s){SETTINGS.github=JSON.parse(s)}
+    if(s){
+      const parsed=JSON.parse(s);
+      // Only override if localStorage has actual values (don't replace baked-in token with empty)
+      if(parsed.token) SETTINGS.github.token=parsed.token;
+      if(parsed.repo) SETTINGS.github.repo=parsed.repo;
+      if(parsed.path) SETTINGS.github.path=parsed.path;
+      if(parsed.branch) SETTINGS.github.branch=parsed.branch;
+    }
   }catch(e){}
 }
 
@@ -3541,10 +3548,9 @@ async function generatePDF(){
 // ── Init ──────────────────────────────────────────────────
 loadGitHubSettings();
 buildSB();buildHome();
-// Show sync button if GitHub is configured
-if(SETTINGS.github.token&&SETTINGS.github.repo){
-  const sb=I('syncBtn');if(sb)sb.style.display='';
-  // Auto-pull on load
+// Always show sync button and auto-pull since credentials are baked in
+const _sb=I('syncBtn');if(_sb)_sb.style.display='';
+if(ghConnected()){
   ghPull().then(()=>{buildSB();buildHome()}).catch(()=>{});
 }
 </script>
