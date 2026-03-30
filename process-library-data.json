@@ -159,15 +159,15 @@
               "desc": "Does Employee profile match Contract?",
               "owner": "HRSS",
               "sys": "HCM Air",
-              "yes": "",
-              "no_path": "",
+              "yes": "7",
+              "no_path": "5",
               "dur": "",
               "docUrl": "",
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
-              "_pos": "{\"x\":1416,\"y\":192}"
+              "_conn": "{\"yes\":{\"fs\":\"bottom\",\"ts\":\"top\",\"color\":\"\",\"width\":0,\"wp\":[]},\"no\":{\"fs\":\"top\",\"ts\":\"top\",\"color\":\"\",\"width\":0,\"wp\":[{\"x\":1523,\"y\":118},{\"x\":1148,\"y\":120}]}}",
+              "_pos": "{\"x\":1416,\"y\":170}"
             },
             {
               "no": "7",
@@ -183,7 +183,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"bottom\",\"to\":\"8\",\"color\":\"\",\"width\":0,\"wp\":[{\"x\":1837,\"y\":583},{\"x\":1842,\"y\":263}]}}",
               "_pos": "{\"x\":1416,\"y\":528}"
             },
             {
@@ -201,14 +201,14 @@
               "comment": "",
               "flagged": false,
               "_conn": "",
-              "_pos": "{\"x\":1848,\"y\":24}"
+              "_pos": "{\"x\":1728,\"y\":24}"
             },
             {
               "no": "9",
               "title": "Live Employee",
-              "type": "System",
+              "type": "End",
               "desc": "Employee live in HCM Air",
-              "owner": "Zellis",
+              "owner": "Employee",
               "sys": "",
               "yes": "",
               "no_path": "",
@@ -218,7 +218,7 @@
               "comment": "",
               "flagged": false,
               "_conn": "",
-              "_pos": "{\"x\":2112,\"y\":528}"
+              "_pos": "{\"x\":2064,\"y\":662}"
             },
             {
               "no": "2A",
@@ -3013,5 +3013,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T16:20:09.197Z"
+  "savedAt": "2026-03-30T16:21:50.146Z"
 }
