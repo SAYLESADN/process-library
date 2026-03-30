@@ -253,7 +253,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
               "_pos": "{\"x\":432,\"y\":360}"
             },
             {
@@ -269,7 +269,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
               "_pos": "{\"x\":768,\"y\":528}"
             },
             {
@@ -301,7 +301,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
+              "_conn": "{\"seq\":{\"fs\":\"top\",\"ts\":\"bottom\"}}",
               "_pos": "{\"x\":1104,\"y\":528}"
             },
             {
@@ -317,8 +317,8 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
-              "_pos": "{\"x\":1080,\"y\":334}"
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
+              "_pos": "{\"x\":1104,\"y\":24}"
             },
             {
               "no": "9",
@@ -334,7 +334,7 @@
               "comment": "",
               "flagged": false,
               "_conn": "",
-              "_pos": "{\"x\":1080,\"y\":24}"
+              "_pos": "{\"x\":1512,\"y\":24}"
             }
           ],
           "history": [
@@ -382,5 +382,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:34:04.029Z"
+  "savedAt": "2026-03-30T15:35:01.577Z"
 }
