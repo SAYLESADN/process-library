@@ -312,6 +312,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hr-002",
+      "name": "Employee Offboarding",
+      "cat": "HR",
+      "subcat": "Leaver",
+      "desc": "",
+      "owner": "",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "30/03/2026",
+          "by": "System",
+          "summary": "Created",
+          "changes": []
+        }
+      ],
+      "version": "1.0",
+      "variants": []
     }
   ],
   "settings": {
@@ -346,5 +374,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T14:38:20.388Z"
+  "savedAt": "2026-03-30T14:38:51.000Z"
 }
