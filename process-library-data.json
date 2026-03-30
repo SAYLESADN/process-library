@@ -220,7 +220,7 @@
               "no": "4",
               "title": "Create Record in HCM Air",
               "type": "Manual",
-              "desc": "",
+              "desc": "HRSS checks notification is complete. Chases missing info. Target: HCM Air record created within 1 working day.",
               "owner": "HRSS",
               "sys": "",
               "dur": "",
@@ -346,5 +346,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:35:16.851Z"
+  "savedAt": "2026-03-30T13:35:25.247Z"
 }
