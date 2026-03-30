@@ -1,5 +1,2984 @@
 {
-  "db": [],
+  "db": [
+    {
+      "id": "HR-TB-001",
+      "name": "New Starter — RETAIL",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "Retail via SDWorx",
+      "owner": "HRSS",
+      "sys": "SDWorx --> HCM Air",
+      "dur": "",
+      "priority": "Critical",
+      "status": "In Progress",
+      "stage": "",
+      "version": "1.1",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [
+        {
+          "no": "1",
+          "title": "Employee Accepts Offer",
+          "type": "Start",
+          "desc": "",
+          "owner": "Employee",
+          "sys": "",
+          "yes": "",
+          "no_path": "",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "2",
+          "title": "Requires Security Pass?",
+          "type": "Decision",
+          "desc": "Does the employee need airport access provisionerd?",
+          "owner": "HRSS",
+          "sys": "",
+          "yes": "Complete Airport Process",
+          "no_path": "Move to Step 3",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "3",
+          "title": "Employee Added to SDWorx",
+          "type": "Manual",
+          "desc": "Employee input into SDWorx by Store Manager. Basic details and RTW only",
+          "owner": "Manager",
+          "sys": "SDWorx",
+          "yes": "",
+          "no_path": "",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "4",
+          "title": "HRI Daily Import",
+          "type": "System",
+          "desc": "HRI Starters Import via SFTP. \r\r\r\n10am Daily",
+          "owner": "HRSS",
+          "sys": "SFTP",
+          "yes": "",
+          "no_path": "",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "5",
+          "title": "Employee Profile",
+          "type": "HRSS",
+          "desc": "Ensure EE Profile is completed and pay elements correct",
+          "owner": "HRSS",
+          "sys": "HCM Air",
+          "yes": "",
+          "no_path": "",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "6",
+          "title": "Validation Gate",
+          "type": "Decision",
+          "desc": "Does Employee profile match Contract?",
+          "owner": "HRSS",
+          "sys": "HCM Air",
+          "yes": "Move to Step 7",
+          "no_path": "Check irregularities and update if required.",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "7",
+          "title": "MyView",
+          "type": "System",
+          "desc": "System generates MyView Access",
+          "owner": "HRSS",
+          "sys": "HCM Air",
+          "yes": "",
+          "no_path": "",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "8",
+          "title": "Employee Self Service",
+          "type": "System",
+          "desc": "Employee logs in to MyView and completes onboarding tasks",
+          "owner": "Employee",
+          "sys": "",
+          "yes": "",
+          "no_path": "",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        },
+        {
+          "no": "9",
+          "title": "Live Employee",
+          "type": "System",
+          "desc": "Employee live in HCM Air",
+          "owner": "Zellis",
+          "sys": "",
+          "yes": "",
+          "no_path": "",
+          "dur": "",
+          "docUrl": "",
+          "notes": "",
+          "comment": "",
+          "flagged": false
+        }
+      ],
+      "history": [
+        {
+          "version": "1.1",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        },
+        {
+          "version": "1.1",
+          "date": "26/03/2026",
+          "by": "Steps Editor",
+          "summary": "Steps updated (9 steps)",
+          "changes": []
+        },
+        {
+          "version": "1.1",
+          "date": "26/03/2026",
+          "by": "Workshop",
+          "summary": "Workshop -- 9 steps",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-002",
+      "name": "HRSS validation against contract",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "Hard gate before approval",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-003",
+      "name": "Contract upload to HCM Air",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "Must be before validation",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-004",
+      "name": "MyView access provisioning",
+      "cat": "HR",
+      "subcat": "Onboard",
+      "desc": "Auto-generated on approval",
+      "owner": "HRSS / IT",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-005",
+      "name": "Welcome email and credentials",
+      "cat": "HR",
+      "subcat": "Onboard",
+      "desc": "Employee ID + temp password",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-006",
+      "name": "IT access provisioning",
+      "cat": "HR",
+      "subcat": "Onboard",
+      "desc": "Still manual — not triggered by HCM Air",
+      "owner": "IT",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-007",
+      "name": "Right to work initial check",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "",
+      "owner": "Talent",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-008",
+      "name": "Recruitment handoff (Harbour ATS)",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "HO only — Harbour to HCM Air",
+      "owner": "Talent",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-009",
+      "name": "Onboarding workflow (full)",
+      "cat": "HR",
+      "subcat": "Onboard",
+      "desc": "Phase 2 module",
+      "owner": "Marina",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-010",
+      "name": "Pension auto-enrolment — new starter",
+      "cat": "HR",
+      "subcat": "Onboard",
+      "desc": "AE letter triggered by system",
+      "owner": "Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-011",
+      "name": "Salary / pay change",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "Approval chain: Mgr → HR → Finance → HRSS",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-012",
+      "name": "Role / job title change",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-013",
+      "name": "Hours / contract change",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-014",
+      "name": "Department / cost centre change",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-015",
+      "name": "Manager / reporting line change",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-016",
+      "name": "Promotion",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "May trigger Finance approval",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-017",
+      "name": "Transfer between sites",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "Reporting line + cost centre",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-018",
+      "name": "Flexible working request",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "MyForms workflow TBC",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-019",
+      "name": "Variation letter generation",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "Template design pending",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-020",
+      "name": "Probation management",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Auto-reminders TBC",
+      "owner": "HR / Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-021",
+      "name": "Annual pay review (bulk)",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "Bulk upload process TBC",
+      "owner": "HR / Finance",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-022",
+      "name": "Self-service — address, phone, email",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Via MyView",
+      "owner": "Employee",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-023",
+      "name": "Self-service — bank details",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Cut-off warning needed",
+      "owner": "Employee",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-024",
+      "name": "Self-service — emergency contact",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Via MyView",
+      "owner": "Employee",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-025",
+      "name": "Document upload to employee record",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Centralised in HCM Air",
+      "owner": "HRSS / Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-026",
+      "name": "Annual leave request and approval",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "Moving to MyView from SDWorx",
+      "owner": "Employee / Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-027",
+      "name": "Leave balance calculation",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "Retail: calendar days. DC/HO: WD/WP×260",
+      "owner": "System",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-028",
+      "name": "Sickness absence recording",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "My Team Absence in MyView",
+      "owner": "Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-029",
+      "name": "Self-certificate form",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "My Forms on return",
+      "owner": "Employee",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-030",
+      "name": "Return to work form",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "Authorisation widget",
+      "owner": "Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-031",
+      "name": "Long-term sickness management",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "Day 8+ — GP fit note",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-032",
+      "name": "Maternity / paternity leave",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "SMP/SPP calc — AWE method TBC",
+      "owner": "HRSS / Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-033",
+      "name": "Adoption / shared parental leave",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "",
+      "owner": "HRSS / Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-034",
+      "name": "Compassionate / bereavement leave",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "",
+      "owner": "Manager / HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-035",
+      "name": "Jury service / public duties",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-036",
+      "name": "Payroll processing (real-time)",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Event-triggered — not monthly batch",
+      "owner": "Payroll (Simon)",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-037",
+      "name": "Payslip generation (MyView)",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "No paper payslips from Go Live",
+      "owner": "System",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-038",
+      "name": "P60 generation",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Available in MyView",
+      "owner": "System",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-039",
+      "name": "BACS file generation",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "SFTP to bank — automated",
+      "owner": "Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-040",
+      "name": "GL journal posting (Coda Finance)",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Automated from HCM Air",
+      "owner": "Payroll / Finance",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-041",
+      "name": "Pension contributions (Aegon feed)",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Automated data feed",
+      "owner": "Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-042",
+      "name": "Pension opt-out",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Process detail TBC",
+      "owner": "Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-043",
+      "name": "Statutory submissions (RTI, HMRC)",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "",
+      "owner": "Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-044",
+      "name": "Overtime / additional hours to payroll",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "T&A interface critical",
+      "owner": "Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-045",
+      "name": "Expenses",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Not in scope for Phase 1 — separate system",
+      "owner": "Finance",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-046",
+      "name": "Clocking / time recording",
+      "cat": "HR",
+      "subcat": "Time",
+      "desc": "SDWorx T&A (Retail) / AllDay (DC)",
+      "owner": "Operations",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-047",
+      "name": "Shift scheduling / rota management",
+      "cat": "HR",
+      "subcat": "Time",
+      "desc": "",
+      "owner": "Operations",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-048",
+      "name": "Overtime approval workflow",
+      "cat": "HR",
+      "subcat": "Time",
+      "desc": "Currently informal",
+      "owner": "Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-049",
+      "name": "T&A to payroll interface",
+      "cat": "HR",
+      "subcat": "Time",
+      "desc": "⚠ Hard gate — interface TBC",
+      "owner": "IT / Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-050",
+      "name": "Leaver — record leaving date and reason",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "Retail via SDWorx, DC/HO direct",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-051",
+      "name": "Leave balance verification",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "Before final pay calc",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-052",
+      "name": "Final pay calculation",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "Salary + holiday + notice + deductions",
+      "owner": "Payroll (Simon)",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-053",
+      "name": "P45 generation",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "Available in MyView 30 days",
+      "owner": "System",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-054",
+      "name": "Pension cessation)",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "Automated via data feed",
+      "owner": "System",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-055",
+      "name": "IT access revocation",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "",
+      "owner": "IT",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-056",
+      "name": "30-day MyView access for leavers",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "30-day access, then revoked (HRSS requested 6 months)",
+      "owner": "System",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-057",
+      "name": "Exit interview / offboarding workflow",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-058",
+      "name": "Right to work re-checks",
+      "cat": "HR",
+      "subcat": "Comply",
+      "desc": "Expiry tracking + auto-reminders",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-059",
+      "name": "Equality & diversity data",
+      "cat": "HR",
+      "subcat": "Comply",
+      "desc": "Voluntary — self-service in MyView",
+      "owner": "Employee",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-060",
+      "name": "GDPR / data retention",
+      "cat": "HR",
+      "subcat": "Comply",
+      "desc": "30-day access, then revoked (HRSS requested 6 months)",
+      "owner": "HR / IT",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-061",
+      "name": "Headcount / workforce reporting",
+      "cat": "HR",
+      "subcat": "Report",
+      "desc": "HCM Air = single source of truth",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-062",
+      "name": "Absence reporting / MI",
+      "cat": "HR",
+      "subcat": "Report",
+      "desc": "",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-063",
+      "name": "Leave reporting / MI",
+      "cat": "HR",
+      "subcat": "Report",
+      "desc": "",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-064",
+      "name": "Turnover reporting",
+      "cat": "HR",
+      "subcat": "Report",
+      "desc": "",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-065",
+      "name": "Power BI dashboards",
+      "cat": "HR",
+      "subcat": "Report",
+      "desc": "Scope TBC",
+      "owner": "HR / IT",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-066",
+      "name": "Manager dashboards (MyView)",
+      "cat": "HR",
+      "subcat": "Report",
+      "desc": "My People tab",
+      "owner": "System",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-067",
+      "name": "Leave approval workflow",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Authorisation widget in MyView",
+      "owner": "Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-068",
+      "name": "Change approval workflow",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Multi-step with Finance threshold",
+      "owner": "Mgr / HR / Finance",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-069",
+      "name": "Delegation when manager absent",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "My Delegations in MyView",
+      "owner": "Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-070",
+      "name": "Myforms approval workflows",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "",
+      "owner": "Mgr / HR / Finance",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-071",
+      "name": "Escalated Approvals",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Enhanced payments, redundancy, dismissal",
+      "owner": "Katharine",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-072",
+      "name": "Loyal Service",
+      "cat": "HR",
+      "subcat": "Leave",
+      "desc": "System generated letters/Notification to the employee via MyView - HRSS to trigger the letter/notification as this requires HR Ops to confirm if EE can get the entitlement",
+      "owner": "HR",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-073",
+      "name": "Leavers Information Email",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "We send an email where we confirm useful information to the employee (MyView access after leave date, Holiday Info, pension info, staff card info) - can this be automated?",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-074",
+      "name": "Holiday Purchase for Leavers",
+      "cat": "HR",
+      "subcat": "Offboard",
+      "desc": "Stop the Holiday Purchase Pay element on the previous month and calculate the accrued purchased holidays",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-075",
+      "name": "HMRC Starter checklist / P45",
+      "cat": "HR",
+      "subcat": "Onboard",
+      "desc": "EE to complete the form on MyView",
+      "owner": "HRSS/Employee",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-076",
+      "name": "Intercompany Transfer",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "Currently a manual process - Change of Pay Group",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-077",
+      "name": "Advances",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "How will this flow going forward?",
+      "owner": "HRSS/Payroll",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-078",
+      "name": "Self-Service : Name Change",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "This will trigger change in email, building pass name, needs validation against marriage certificate",
+      "owner": "EE + HRSS+ IT",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-079",
+      "name": "Head Office Overtime/ On Call Payments for IT",
+      "cat": "HR",
+      "subcat": "Time",
+      "desc": "Need to be included into MyView for Managers to record? Validated by HRSS?",
+      "owner": "Managers",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-080",
+      "name": "Creating a Post",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "Process TBC",
+      "owner": "HRSS?",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-081",
+      "name": "Creating/Updating a Post to Post",
+      "cat": "HR",
+      "subcat": "Change",
+      "desc": "Process TBC",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-082",
+      "name": "Casual Holiday Payment",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Can this be built into the system as a automated calc based on the hours worked",
+      "owner": "HRSS/Manager",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-083",
+      "name": "Recommend a Friend",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Does this need to be still AD Hoc as is and how do we process these?",
+      "owner": "HR Ops/Talent/HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-084",
+      "name": "FMS Inputs",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "HRSS currently inputs into FMS any amendments to pay- do we keep using this process or can we build a workflow on the system whereby HRSS inputs on HCM Air and a validation notification goes to Simon to validate the input? (to avoid the FMS spreedsheet)",
+      "owner": "HRSS/Simon",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-085",
+      "name": "Benefits",
+      "cat": "HR",
+      "subcat": "Benefits",
+      "desc": "HRSS currently inputs into FMS any PMI, STL, Holiday purchase - do we keep using this process as Benefits are not integrated into HCM AIR?",
+      "owner": "HRSS/Simon",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-086",
+      "name": "DEA and Court Orders",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "Is still still uploaded on the Portal?",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-087",
+      "name": "Probationary Letters",
+      "cat": "HR",
+      "subcat": "Manage",
+      "desc": "Currently a manual process - can the system send reminders and outcome letters to employees/managers with validation from HR?",
+      "owner": "HRSS/HR Ops",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-088",
+      "name": "Outbound References",
+      "cat": "HR",
+      "subcat": "Onboard",
+      "desc": "Can these be automated once Onboard goes live?",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-089",
+      "name": "Other Paid Leave",
+      "cat": "HR",
+      "subcat": "Pay",
+      "desc": "How do we enter these? MyView or T&A? Pay elements to be considered: Suspension, Sabbatical",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-090",
+      "name": "New Starter - Distribution Centre",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "",
+      "owner": "HRSS",
+      "sys": "HCM Air - MyView",
+      "dur": "",
+      "priority": "Critical",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.2",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.2",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-091",
+      "name": "New Starter - Head Office",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "",
+      "owner": "HRSS",
+      "sys": "HCM Air - MyView",
+      "dur": "",
+      "priority": "Critical",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.1",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.1",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "HR-TB-092",
+      "name": "Airport Retail",
+      "cat": "HR",
+      "subcat": "Hire",
+      "desc": "",
+      "owner": "",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "26/03/2026",
+          "by": "Import",
+          "summary": "Imported from Excel",
+          "changes": []
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "WAGEMODEL1",
+      "name": "WAGEMODEL1",
+      "cat": "HR",
+      "subcat": "",
+      "desc": "",
+      "owner": "",
+      "sys": "",
+      "dur": "",
+      "priority": "Medium",
+      "status": "Not Started",
+      "stage": "",
+      "version": "1.0",
+      "docUrl": "",
+      "notes": "",
+      "links": [
+        "HR-TB-084"
+      ],
+      "steps": [],
+      "history": [],
+      "variants": [
+        {
+          "id": "redundancy",
+          "label": "Redundancy",
+          "colour": "#7B61FF",
+          "steps": [
+            {
+              "no": "1",
+              "title": "Data Import",
+              "type": "Start",
+              "desc": "HR Retail team will input data into Wage Model Master 2026.",
+              "owner": "Manager",
+              "sys": "Excel",
+              "yes": "",
+              "no_path": "",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "2",
+              "title": "Is ETAM?",
+              "type": "Decision",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "yes": "3",
+              "no_path": "4",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "3",
+              "title": "Input into Redundancy calculator.",
+              "type": "Manual",
+              "desc": "INCLUDE PILON",
+              "owner": "HRSS",
+              "sys": "Excel",
+              "yes": "",
+              "no_path": "",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "4",
+              "title": "Input into Redundancy calculator.",
+              "type": "Manual",
+              "desc": "NO PILON PAYABLE",
+              "owner": "HRSS",
+              "sys": "Excel",
+              "yes": "",
+              "no_path": "",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "5",
+              "title": "Weekly Review",
+              "type": "Review",
+              "desc": "11am Monday meeting to review",
+              "owner": "",
+              "sys": "",
+              "yes": "",
+              "no_path": "",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "6",
+              "title": "Generate Letters",
+              "type": "System",
+              "desc": "",
+              "owner": "",
+              "sys": "",
+              "yes": "",
+              "no_path": "",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "7",
+              "title": "FMS",
+              "type": "Action",
+              "desc": "",
+              "owner": "",
+              "sys": "",
+              "yes": "",
+              "no_path": "",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            }
+          ],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "Import",
+              "summary": "Imported",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "System",
+              "summary": "Variant created",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Workshop",
+              "summary": "Workshop -- 1 steps",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Workshop",
+              "summary": "Workshop -- 1 steps",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Workshop",
+              "summary": "Workshop -- 1 steps",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Workshop",
+              "summary": "Workshop -- 4 steps",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Workshop",
+              "summary": "Workshop -- 4 steps",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Workshop",
+              "summary": "Workshop -- 7 steps",
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "contractual-change",
+          "label": "Contractual Change",
+          "colour": "#7B61FF",
+          "steps": [
+            {
+              "no": "1",
+              "title": "Contractual Change",
+              "type": "Start",
+              "desc": "",
+              "owner": "",
+              "sys": "",
+              "yes": "",
+              "no_path": "",
+              "dur": "",
+              "docUrl": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            }
+          ],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "Import",
+              "summary": "Imported",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "System",
+              "summary": "Variant created",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Steps Editor",
+              "summary": "Steps updated (1 steps)",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Workshop",
+              "summary": "Workshop -- 1 steps",
+              "changes": []
+            },
+            {
+              "version": "1.0",
+              "date": "26/03/2026",
+              "by": "Steps Editor",
+              "summary": "Steps updated (1 steps)",
+              "changes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "settings": {
     "stakeholders": [
       "Employee",
@@ -32,5 +3011,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:42:23.847Z"
+  "savedAt": "2026-03-30T15:46:38.709Z"
 }
