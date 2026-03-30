@@ -319,7 +319,7 @@
               "comment": "",
               "flagged": false,
               "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
-              "_pos": "{\"x\":1032,\"y\":360}"
+              "_pos": "{\"x\":984,\"y\":360}"
             },
             {
               "no": "6",
@@ -328,14 +328,14 @@
               "desc": "Does Employee profile match Contract?",
               "owner": "HRSS",
               "sys": "HCM Air",
-              "yes": "",
-              "no_path": "",
+              "yes": "7",
+              "no_path": "3",
               "dur": "",
               "docUrl": "",
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
+              "_conn": "{\"yes\":{\"fs\":\"bottom\",\"ts\":\"left\"},\"no\":{\"fs\":\"top\",\"ts\":\"right\"}}",
               "_pos": "{\"x\":1416,\"y\":360}"
             },
             {
@@ -352,8 +352,8 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
-              "_pos": "{\"x\":1704,\"y\":378}"
+              "_conn": "{\"seq\":{\"fs\":\"top\",\"ts\":\"bottom\"}}",
+              "_pos": "{\"x\":1704,\"y\":528}"
             },
             {
               "no": "8",
@@ -369,8 +369,8 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "",
-              "_pos": "{\"x\":1848,\"y\":24}"
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"top\"}}",
+              "_pos": "{\"x\":1704,\"y\":24}"
             },
             {
               "no": "9",
@@ -401,7 +401,7 @@
               "no_path": "",
               "notes": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"right\"}}",
+              "_conn": "",
               "_pos": "{\"x\":1104,\"y\":24}"
             }
           ],
@@ -2998,5 +2998,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:54:21.062Z"
+  "savedAt": "2026-03-30T15:55:30.882Z"
 }
