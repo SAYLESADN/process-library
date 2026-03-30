@@ -253,7 +253,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
+              "_conn": "",
               "_pos": "{\"x\":432,\"y\":360}"
             },
             {
@@ -269,8 +269,8 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
-              "_pos": "{\"x\":1104,\"y\":528}"
+              "_conn": "",
+              "_pos": "{\"x\":768,\"y\":528}"
             },
             {
               "no": "5",
@@ -286,7 +286,7 @@
               "comment": "",
               "flagged": true,
               "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
-              "_pos": "{\"x\":672,\"y\":378}"
+              "_pos": "{\"x\":768,\"y\":360}"
             },
             {
               "no": "7",
@@ -301,15 +301,15 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
-              "_pos": "{\"x\":1224,\"y\":498}"
+              "_conn": "",
+              "_pos": "{\"x\":1104,\"y\":528}"
             },
             {
               "no": "8",
               "title": "Employee Self Service Active",
               "type": "System",
               "desc": "Employee logs in via SSO. Accesses dashboard: payslips, leave, personal details, team management (managers via My People tab).",
-              "owner": "HRSS",
+              "owner": "Employee",
               "sys": "",
               "dur": "",
               "yes": "",
@@ -318,7 +318,7 @@
               "comment": "",
               "flagged": false,
               "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
-              "_pos": "{\"x\":1584,\"y\":360}"
+              "_pos": "{\"x\":1080,\"y\":334}"
             },
             {
               "no": "9",
@@ -382,5 +382,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:33:31.437Z"
+  "savedAt": "2026-03-30T15:34:04.029Z"
 }
