@@ -153,7 +153,23 @@
           "changes": []
         }
       ],
-      "variants": []
+      "variants": [
+        {
+          "id": "distribution-centre",
+          "label": "Distribution Centre",
+          "colour": "#7B61FF",
+          "steps": [],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "System",
+              "summary": "Variant created",
+              "changes": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "settings": {
@@ -187,5 +203,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T12:28:44.876Z"
+  "savedAt": "2026-03-30T12:29:30.734Z"
 }
