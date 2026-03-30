@@ -1,0 +1,41 @@
+{
+  "db": [],
+  "settings": {
+    "stakeholders": [
+      "Employee",
+      "Manager",
+      "HRSS",
+      "Talent Team (HR)",
+      "Payroll",
+      "IT",
+      "Finance",
+      "Zellis",
+      "All"
+    ],
+    "categories": [
+      "HR",
+      "Payroll",
+      "System",
+      "Admin"
+    ],
+    "catColours": {
+      "HR": "#0D9488",
+      "Payroll": "#7B61FF",
+      "System": "#2D3A4A",
+      "Admin": "#64748B"
+    },
+    "statuses": [
+      "Not Started",
+      "In Progress",
+      "Active",
+      "Complete"
+    ],
+    "github": {
+      "token": "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",
+      "repo": "SAYLESADN/process-library",
+      "path": "process-library-data.json",
+      "branch": "main"
+    }
+  },
+  "savedAt": "2026-03-30T11:15:35.123Z"
+}
