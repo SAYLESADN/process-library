@@ -312,34 +312,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "HR-002",
-      "name": "TEST",
-      "cat": "HR",
-      "subcat": "",
-      "desc": "",
-      "owner": "",
-      "sys": "",
-      "dur": "",
-      "priority": "Medium",
-      "status": "Not Started",
-      "stage": "",
-      "docUrl": "",
-      "notes": "",
-      "links": [],
-      "steps": [],
-      "history": [
-        {
-          "version": "1.0",
-          "date": "30/03/2026",
-          "by": "System",
-          "summary": "Created",
-          "changes": []
-        }
-      ],
-      "version": "1.0",
-      "variants": []
     }
   ],
   "settings": {
@@ -374,5 +346,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T14:43:42.726Z"
+  "savedAt": "2026-03-30T14:43:49.245Z"
 }
