@@ -310,6 +310,148 @@
               "changes": []
             }
           ]
+        },
+        {
+          "id": "retail",
+          "label": "Retail",
+          "colour": "#EA580C",
+          "steps": [
+            {
+              "no": "1",
+              "title": "Employee Accepts Offer",
+              "type": "Start",
+              "desc": "",
+              "owner": "Employee",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "2",
+              "title": "Manager Raises Starter Request",
+              "type": "Manual",
+              "desc": "Line manager notifies HRSS: full name, job title, start date, department, hours, pay, pension",
+              "owner": "Manager",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "3",
+              "title": "HRSS Recieve & Review",
+              "type": "Review",
+              "desc": "HRSS checks notification is complete. Chases missing info. Target: HCM Air record created within 1 working day.",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "4",
+              "title": "Create Record in HCM Air",
+              "type": "Manual",
+              "desc": "Create employee master record in HCM Air. Personal details, employment terms, hours, work pattern, cost centre, pay rate,.",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "5",
+              "title": "Access & Tech Provisioning",
+              "type": "System",
+              "desc": "provision: laptop, Adena network account, email, Teams, shared drives, building pass. SSO provisioned for MyView browser access.",
+              "owner": "Power Automate",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "6",
+              "title": "Payroll Validation",
+              "type": "Review",
+              "desc": "",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": true
+            },
+            {
+              "no": "7",
+              "title": "MyView Access Created",
+              "type": "Review",
+              "desc": "HCM Air creates MyView account. HO/DC log in via SSO using Adena network credentials in browser. Mobile app uses Employee ID and password.",
+              "owner": "Power Automate",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "8",
+              "title": "Employee Self Service Active",
+              "type": "System",
+              "desc": "Employee logs in via SSO. Accesses dashboard: payslips, leave, personal details, team management (managers via My People tab).",
+              "owner": "HRSS",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            },
+            {
+              "no": "9",
+              "title": "Live Employee",
+              "type": "End",
+              "desc": "Record fully active in HCM Air. Live for payroll. Manager has visibility via My People tab from day one. Pension auto-enrolment running.",
+              "owner": "Employee",
+              "sys": "",
+              "dur": "",
+              "yes": "",
+              "no_path": "",
+              "notes": "",
+              "comment": "",
+              "flagged": false
+            }
+          ],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "User",
+              "summary": "Copied from Head Office",
+              "changes": []
+            }
+          ]
         }
       ]
     }
@@ -346,5 +488,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T14:54:24.511Z"
+  "savedAt": "2026-03-30T14:54:36.850Z"
 }
