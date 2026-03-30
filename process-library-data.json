@@ -5,14 +5,14 @@
       "name": "New Starter",
       "cat": "HR",
       "subcat": "Hire",
-      "desc": "Retail via SDWorx",
+      "desc": "",
       "owner": "HRSS",
-      "sys": "SDWorx --> HCM Air",
+      "sys": "HCM Air",
       "dur": "",
       "priority": "Critical",
       "status": "In Progress",
-      "stage": "",
-      "version": "1.1",
+      "stage": "Interim",
+      "version": "1.2",
       "docUrl": "",
       "notes": "Retail via SDWorx/SFTP",
       "links": [],
@@ -23,6 +23,13 @@
           "date": "30/03/2026",
           "by": "Import",
           "summary": "Imported from Excel",
+          "changes": []
+        },
+        {
+          "version": "1.2",
+          "date": "30/03/2026",
+          "by": "Unknown",
+          "summary": "Updated",
           "changes": []
         }
       ],
@@ -106,5 +113,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T11:57:24.017Z"
+  "savedAt": "2026-03-30T11:57:53.630Z"
 }
