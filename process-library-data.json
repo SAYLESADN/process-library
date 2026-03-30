@@ -1,34 +1,5 @@
 {
-  "db": [
-    {
-      "id": "sdgFG",
-      "name": "fdDGz",
-      "cat": "HR",
-      "subcat": "",
-      "desc": "fgadhdzfh",
-      "owner": "",
-      "sys": "",
-      "dur": "",
-      "priority": "Medium",
-      "status": "Not Started",
-      "stage": "",
-      "docUrl": "",
-      "notes": "",
-      "links": [],
-      "steps": [],
-      "history": [
-        {
-          "version": "1.0",
-          "date": "30/03/2026",
-          "by": "System",
-          "summary": "Created",
-          "changes": []
-        }
-      ],
-      "version": "1.0",
-      "variants": []
-    }
-  ],
+  "db": [],
   "settings": {
     "stakeholders": [
       "Employee",
@@ -61,5 +32,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:41:42.071Z"
+  "savedAt": "2026-03-30T15:42:23.847Z"
 }
