@@ -36,7 +36,7 @@
           "title": "Manager Raises Starter Request",
           "type": "Manual",
           "desc": "",
-          "owner": "",
+          "owner": "Manager",
           "sys": "",
           "dur": "",
           "yes": "",
@@ -187,5 +187,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:12:16.611Z"
+  "savedAt": "2026-03-30T13:12:22.616Z"
 }
