@@ -105,7 +105,7 @@
           "no": "7",
           "title": "MyView Access Created",
           "type": "Review",
-          "desc": "",
+          "desc": "HCM Air creates MyView account. HO/DC log in via SSO using Adena network credentials in browser. Mobile app uses Employee ID and password.",
           "owner": "Power Automate",
           "sys": "",
           "dur": "",
@@ -188,5 +188,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:39:41.743Z"
+  "savedAt": "2026-03-30T13:39:51.002Z"
 }
