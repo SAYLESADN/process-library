@@ -56,6 +56,21 @@
               "changes": []
             }
           ]
+        },
+        {
+          "id": "head-office",
+          "label": "Head Office",
+          "colour": "#EA580C",
+          "steps": [],
+          "history": [
+            {
+              "version": "1.0",
+              "date": "30/03/2026",
+              "by": "User",
+              "summary": "Empty variant created",
+              "changes": []
+            }
+          ]
         }
       ]
     }
@@ -91,5 +106,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T11:57:14.651Z"
+  "savedAt": "2026-03-30T11:57:24.017Z"
 }
