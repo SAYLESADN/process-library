@@ -375,7 +375,7 @@
             {
               "no": "9",
               "title": "Live Employee",
-              "type": "System",
+              "type": "End",
               "desc": "Employee live in HCM Air",
               "owner": "Power Automate",
               "sys": "",
@@ -387,7 +387,7 @@
               "comment": "",
               "flagged": false,
               "_conn": "",
-              "_pos": "{\"x\":2088,\"y\":672}"
+              "_pos": "{\"x\":2088,\"y\":528}"
             },
             {
               "no": "2A",
@@ -2998,5 +2998,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T15:56:34.942Z"
+  "savedAt": "2026-03-30T15:56:46.988Z"
 }
