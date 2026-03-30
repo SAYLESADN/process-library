@@ -49,7 +49,7 @@
           "no": "3",
           "title": "HRSS Recieve & Review",
           "type": "Review",
-          "desc": "",
+          "desc": "HRSS checks notification is complete. Chases missing info. Target: HCM Air record created within 1 working day.",
           "owner": "HRSS",
           "sys": "",
           "dur": "",
@@ -188,5 +188,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-30T13:38:27.371Z"
+  "savedAt": "2026-03-30T13:38:34.713Z"
 }
