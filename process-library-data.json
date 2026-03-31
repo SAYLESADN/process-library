@@ -81,7 +81,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
+              "_conn": "",
               "_pos": "{\"x\":168,\"y\":48}"
             },
             {
@@ -91,14 +91,14 @@
               "desc": "Does the employee need airport access provisionerd?",
               "owner": "Employee",
               "sys": "",
-              "yes": "2A",
-              "no_path": "3",
+              "yes": "",
+              "no_path": "",
               "dur": "",
               "docUrl": "",
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"yes\":{\"fs\":\"right\",\"ts\":\"left\"},\"no\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
+              "_conn": "",
               "_pos": "{\"x\":696,\"y\":24}"
             },
             {
@@ -115,7 +115,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"bottom\",\"ts\":\"top\"}}",
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\",\"to\":\"4\",\"color\":\"\",\"width\":0,\"wp\":[]}}",
               "_pos": "{\"x\":696,\"y\":192}"
             },
             {
@@ -132,7 +132,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
+              "_conn": "{\"seq\":{\"fs\":\"top\",\"ts\":\"bottom\",\"to\":\"5\",\"color\":\"\",\"width\":0,\"wp\":[]}}",
               "_pos": "{\"x\":696,\"y\":360}"
             },
             {
@@ -149,7 +149,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\"}}",
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\",\"to\":\"6\",\"color\":\"\",\"width\":0,\"wp\":[]}}",
               "_pos": "{\"x\":984,\"y\":360}"
             },
             {
@@ -159,15 +159,15 @@
               "desc": "Does Employee profile match Contract?",
               "owner": "HRSS",
               "sys": "HCM Air",
-              "yes": "7",
-              "no_path": "3",
+              "yes": "",
+              "no_path": "",
               "dur": "",
               "docUrl": "",
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"yes\":{\"fs\":\"bottom\",\"ts\":\"left\"},\"no\":{\"fs\":\"top\",\"ts\":\"right\"}}",
-              "_pos": "{\"x\":1416,\"y\":360}"
+              "_conn": "",
+              "_pos": "{\"x\":1429,\"y\":351}"
             },
             {
               "no": "7",
@@ -183,7 +183,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"top\",\"ts\":\"bottom\"}}",
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"bottom\",\"to\":\"8\",\"color\":\"#1b1b1d\",\"width\":2,\"wp\":[{\"x\":1830,\"y\":584},{\"x\":1824,\"y\":264}]}}",
               "_pos": "{\"x\":1704,\"y\":528}"
             },
             {
@@ -200,7 +200,7 @@
               "notes": "",
               "comment": "",
               "flagged": false,
-              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"top\"}}",
+              "_conn": "{\"seq\":{\"fs\":\"right\",\"ts\":\"left\",\"to\":\"9\",\"color\":\"\",\"width\":0,\"wp\":[]}}",
               "_pos": "{\"x\":1704,\"y\":24}"
             },
             {
@@ -223,9 +223,9 @@
             {
               "no": "2A",
               "title": "Pass Provision Process",
-              "type": "Notify",
+              "type": "Link",
               "desc": "",
-              "owner": "Employee",
+              "owner": "HRSS",
               "sys": "",
               "dur": "",
               "yes": "",
@@ -233,7 +233,9 @@
               "notes": "",
               "flagged": false,
               "_conn": "",
-              "_pos": "{\"x\":2352,\"y\":24}"
+              "_pos": "{\"x\":1075.0001220703125,\"y\":662}",
+              "linkTo": "",
+              "returnTo": "3"
             }
           ],
           "history": [
@@ -2853,5 +2855,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-31T09:43:52.090Z"
+  "savedAt": "2026-03-31T09:57:49.968Z"
 }
