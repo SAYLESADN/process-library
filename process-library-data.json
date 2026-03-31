@@ -433,34 +433,6 @@
       ]
     },
     {
-      "id": "HR-TB-002",
-      "name": "HRSS validation against contract",
-      "cat": "HR",
-      "subcat": "Hire",
-      "desc": "Hard gate before approval",
-      "owner": "HRSS",
-      "sys": "",
-      "dur": "",
-      "priority": "Medium",
-      "status": "Not Started",
-      "stage": "",
-      "version": "1.0",
-      "docUrl": "",
-      "notes": "",
-      "links": [],
-      "steps": [],
-      "history": [
-        {
-          "version": "1.0",
-          "date": "26/03/2026",
-          "by": "Import",
-          "summary": "Imported from Excel",
-          "changes": []
-        }
-      ],
-      "variants": []
-    },
-    {
       "id": "HR-TB-003",
       "name": "Contract upload to HCM Air",
       "cat": "HR",
@@ -3048,5 +3020,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-31T09:38:57.042Z"
+  "savedAt": "2026-03-31T09:42:15.706Z"
 }
