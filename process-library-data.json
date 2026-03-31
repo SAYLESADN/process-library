@@ -2979,6 +2979,41 @@
         }
       ],
       "variants": []
+    },
+    {
+      "id": "DC-001",
+      "name": "New Starter HCM Air Set Up",
+      "cat": "Payroll",
+      "subcat": "Distribution Centre",
+      "desc": "Onboarding Process for DC",
+      "owner": "HRSS",
+      "sys": "",
+      "dur": "",
+      "priority": "High",
+      "status": "Not Started",
+      "stage": "Interim",
+      "docUrl": "",
+      "notes": "",
+      "links": [],
+      "steps": [],
+      "history": [
+        {
+          "version": "1.0",
+          "date": "31/03/2026",
+          "by": "System",
+          "summary": "Created",
+          "changes": []
+        },
+        {
+          "version": "1.1",
+          "date": "31/03/2026",
+          "by": "Unknown",
+          "summary": "Updated",
+          "changes": []
+        }
+      ],
+      "version": "1.1",
+      "variants": []
     }
   ],
   "settings": {
@@ -2998,13 +3033,13 @@
       "HR",
       "Payroll",
       "System",
-      "Admin"
+      "Distribution Centre"
     ],
     "catColours": {
       "HR": "#0D9488",
       "Payroll": "#7B61FF",
       "System": "#2D3A4A",
-      "Admin": "#64748B"
+      "Distribution Centre": "#a604f1"
     },
     "statuses": [
       "Not Started",
@@ -3013,5 +3048,5 @@
       "Complete"
     ]
   },
-  "savedAt": "2026-03-31T09:35:48.106Z"
+  "savedAt": "2026-03-31T09:38:27.697Z"
 }
